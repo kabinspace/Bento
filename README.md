@@ -5,7 +5,7 @@
     <img align="center" src="https://github.com/migueravila/Bento/blob/master/assets/img/donation.png" alt="donation" height="35px" />
   </a>
 
-  <a href="https://migueravila.github.io/Bento/" target="_blank" style='margin-right:0px; margin-top:5px'>
+  <a href="https://kabinspace.github.io/Bento/" target="_blank" style='margin-right:0px; margin-top:5px'>
     <img align="center" src="https://github.com/migueravila/Bento/blob/master/assets/img/live.png" alt="live-preview" height="35px" />
   </a>
 </p>
@@ -13,6 +13,7 @@
 <br />
 
 ## 👇 Index
+
 - [👇 Index](#-index)
 - [✨ Features](#-features)
 - [🚀 Usage](#-usage)
@@ -27,7 +28,6 @@
   - [⛈️ Weather: Api Key, Icons and Unit](#️-weather-api-key-icons-and-unit)
   - [💛 Colors](#-colors)
   - [🌑 Auto change theme](#-auto-change-theme)
-
 
 ## ✨ Features
 
@@ -63,14 +63,16 @@ You can use different Add-ons/Extensions for it
 You can run Bento in a Docker Container, either with `docker run`, or with the included `docker-compose` file.
 
 #### Docker run
- 1. Clone this repo to pull the config.js file: `git clone https://github.com/migueravila/Bento/`
- 2. Run the following `docker` command, providing the path to the config.js file, changing port mappings if needed.
- 3. `# docker run -it -d -p 80:80 -v <config.js location>:/usr/share/nginx/html/config.js lewisdoesstuff/bento`
+
+1.  Clone this repo to pull the config.js file: `git clone https://github.com/migueravila/Bento/`
+2.  Run the following `docker` command, providing the path to the config.js file, changing port mappings if needed.
+3.  `# docker run -it -d -p 80:80 -v <config.js location>:/usr/share/nginx/html/config.js lewisdoesstuff/bento`
 
 #### docker-compose
-  1. Clone this repo with `git clone https://github.com/migueravila/Bento/`
-  2. Edit port mappings, and provide a path to the config.js file in `docker-compose.yml`
-  3. `cd` into the cloned repo, then run `# docker-compose -d up` to start. 
+
+1. Clone this repo with `git clone https://github.com/migueravila/Bento/`
+2. Edit port mappings, and provide a path to the config.js file in `docker-compose.yml`
+3. `cd` into the cloned repo, then run `# docker-compose -d up` to start.
 
 ## 🎨 Customization
 
@@ -212,7 +214,7 @@ The same happens with the list links, you can change the list icon (also using L
 
 ### ⛈️ Weather: Api Key, Icons and Unit
 
-For setting up the Weather widget you'll need an API Key from: `https://openweathermap.org/`. Once you have your Key you'll need to set your latitude and longitude, you can use: `https://www.latlong.net/` to get them. 
+For setting up the Weather widget you'll need an API Key from: `https://openweathermap.org/`. Once you have your Key you'll need to set your latitude and longitude, you can use: `https://www.latlong.net/` to get them.
 
 Finally, choose an Icon set:
 
@@ -270,7 +272,7 @@ that you can change in the `config.js` file:
   autoChangeTheme: true,
 
   // Autochange by OS
-  changeThemeByOS: false, 
+  changeThemeByOS: false,
 
   // Autochange by hour options (24hrs format, string must be in: hh:mm)
   changeThemeByHour: true, // If it's true, it will use the values below:
